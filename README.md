@@ -21,11 +21,11 @@ After the leak of 533 millions Facebook user data, I wanted to find out if any o
 ----------------------------------------
 > python main.py -i 'contact.vcf' -l 'Country.txt'
 
-# How to export .vcf on Android:
+# How to export vcard (.vcf) on Android:
 
 [https://www.howtogeek.com/359081/how-to-manually-export-and-back-up-contacts-on-android/](https://www.howtogeek.com/359081/how-to-manually-export-and-back-up-contacts-on-android/)
 
-# How to export .vcf on ios:
+# How to export vcard (.vcf) on ios:
 
 [https://trendblog.net/how-to-export-iphone-contacts-to-a-vcf-or-csv-file/](https://trendblog.net/how-to-export-iphone-contacts-to-a-vcf-or-csv-file/)
 
