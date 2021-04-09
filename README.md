@@ -1,28 +1,37 @@
 
 ```
-
- ______             _                 _      _                _      _____            _             _      _____ _               _             
-|  ____|           | |               | |    | |              | |     /____|          | |           | |    / ____| |             | |            
-| |__ __ _  ___ ___| |__   ___   ___ | | __ | |     ___  __ _| | __ | |     ___  ___ | |_ __ _  ___| |_  | |    | |__   ___  ___| | _____ _ __ 
-|  __/ _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ / | |    / _ \/ _` | |/ / | |    / _ \| '_\| __/ _` |/ __| __| | |    | '_ \ / _ \/ __| |/ / _ \ '__|
-| | | (_| | (_|  __/ |_) | (_) | (_) |   <  | |___|  __/ (_| |   <  | |___| (_) | || | || (_| | (__| |_  | |____| | | |  __/ (__|   <  __/ |   
-|_|  \__,_|\___\___|_.__/ \___/ \___/|_|\_\ |______\___|\__,_|_|\_\  \_____\___/|_| _|\__\__,_|\___|\__|  \_____|_| |_|\___|\___|_|\_\___|_|   
+______                 _                    _        _                   _                
+|  ___|               | |                  | |      | |                 | |               
+| |_  __ _   ___  ___ | |__    ___    ___  | | __   | |      ___   __ _ | | __            
+|  _|/ _` | / __|/ _ \| '_ \  / _ \  / _ \ | |/ /   | |     / _ \ / _` || |/ /            
+| | | (_| || (__|  __/| |_) || (_) || (_) ||   <    | |____|  __/| (_| ||   <             
+\_|  \__,_| \___|\___||_.__/  \___/  \___/ |_|\_\   \_____/ \___| \__,_||_|\_\            
+                                                                                          
+                                                                                          
+ _____                _                _        _____  _                  _               
+/  __ \              | |              | |      /  __ \| |                | |              
+| /  \/  ___   _ __  | |_  __ _   ___ | |_     | /  \/| |__    ___   ___ | | __ ___  _ __ 
+| |     / _ \ | '_ \ | __|/ _` | / __|| __|    | |    | '_ \  / _ \ / __|| |/ // _ \| '__|
+| \__/\| (_) || | | || |_| (_| || (__ | |_     | \__/\| | | ||  __/| (__ |   <|  __/| |   
+ \____/ \___/ |_| |_| \__|\__,_| \___| \__|     \____/|_| |_| \___| \___||_|\_\\___||_|   
 ```                                                                                                                                                 
----                                                                                                                                              
+---                                                                                                         
+# Story
+
 After the leak of over 500 millions Facebook user data, I wanted to find out if any of my friends have been affected. Since I have a lot of contacts, I did not want to use a site like [haveibeenpwned](https://haveibeenpwned.com/) because I would have had to check each one individually. So to help me it so I wrote this program.
 
-# The goal :
+# Goal
 The goal of this program is to batch check if any of your contact have been affected.  
 
 To do the check we use a vcard file that all phone uses to store contacts then we check agains one file of the leak.
 
 ---
 
-# To use :
+# Usage
 
-All you have to do is export a vcard **('.vcf')** from your phone and provide a file from the leak and let the program do the rest.  
+All you have to do is export a vcard **('.vcf')** from your phone, provide a file from the leak and let the program do the rest.  
 
-**_you may find the files on your favorite torrent providers\*\*_**
+**_you may find the files from the leak on your favorite torrent providers\*\*_**
 
 ### 1- install dependency for parsing vcards
 
