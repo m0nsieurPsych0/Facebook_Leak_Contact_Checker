@@ -1,33 +1,51 @@
 
->
+```
 
-      ______             _                 _      _                _       _____            _             _      _____ _               _             
-     |  ____|           | |               | |    | |              | |     / ____|          | |           | |    / ____| |             | |            
-     | |__ __ _  ___ ___| |__   ___   ___ | | __ | |     ___  __ _| | __ | |     ___  _ __ | |_ __ _  ___| |_  | |    | |__   ___  ___| | _____ _ __ 
-     |  __/ _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ / | |    / _ \/ _` | |/ / | |    / _ \| '_ \| __/ _` |/ __| __| | |    | '_ \ / _ \/ __| |/ / _ \ '__|
-     | | | (_| | (_|  __/ |_) | (_) | (_) |   <  | |___|  __/ (_| |   <  | |___| (_) | | | | || (_| | (__| |_  | |____| | | |  __/ (__|   <  __/ |   
-     |_|  \__,_|\___\___|_.__/ \___/ \___/|_|\_\ |______\___|\__,_|_|\_\  \_____\___/|_| |_|\__\__,_|\___|\__|  \_____|_| |_|\___|\___|_|\_\___|_|   
-                                                                                                                                                 
-                                                                                                                                                 
-After the leak of 533 millions Facebook user data, I wanted to find out if any of my friends have been affected. I could not find an easy way to do it so I wrote this program to help me. All you have to do is import a vcard ('.vcf') and provide a file from the leak (you may find the files on your favorite torrent providers) and let the program do the rest.
+ ______             _                 _      _                _      _____            _             _      _____ _               _             
+|  ____|           | |               | |    | |              | |     /____|          | |           | |    / ____| |             | |            
+| |__ __ _  ___ ___| |__   ___   ___ | | __ | |     ___  __ _| | __ | |     ___  ___ | |_ __ _  ___| |_  | |    | |__   ___  ___| | _____ _ __ 
+|  __/ _` |/ __/ _ \ '_ \ / _ \ / _ \| |/ / | |    / _ \/ _` | |/ / | |    / _ \| '_\| __/ _` |/ __| __| | |    | '_ \ / _ \/ __| |/ / _ \ '__|
+| | | (_| | (_|  __/ |_) | (_) | (_) |   <  | |___|  __/ (_| |   <  | |___| (_) | || | || (_| | (__| |_  | |____| | | |  __/ (__|   <  __/ |   
+|_|  \__,_|\___\___|_.__/ \___/ \___/|_|\_\ |______\___|\__,_|_|\_\  \_____\___/|_| _|\__\__,_|\___|\__|  \_____|_| |_|\___|\___|_|\_\___|_|   
+```                                                                                                                                                 
+---                                                                                                                                              
+After the leak of over 500 millions Facebook user data, I wanted to find out if any of my friends have been affected. Since I have a lot of contacts, I did not want to use a site like [haveibeenpwned](https://haveibeenpwned.com/) because I would have had to check each one individually. So to help me it so I wrote this program.
 
-# To use:
+# The goal :
+The goal of this program is to batch check if any of your contact have been affected.  
 
-1- install dependency for parsing Vcards
-----------------------------------------
-> pip install vobject
+To do the check we use a vcard file that all phone uses to store contacts then we check agains one file of the leak.
 
-2- use the program
-----------------------------------------
-> python main.py -i 'contact.vcf' -l 'Country.txt'
+---
 
-# How to export vcard (.vcf) on Android:
+# To use :
+
+All you have to do is export a vcard **('.vcf')** from your phone and provide a file from the leak and let the program do the rest.  
+
+**_you may find the files on your favorite torrent providers\*\*_**
+
+### 1- install dependency for parsing vcards
+
+      pip install vobject
+
+### 2- use the program
+
+      python main.py -i 'contact.vcf' -l 'Country.txt'
+
+---
+## How to export vcard (.vcf) on Android:
 
 [https://www.howtogeek.com/359081/how-to-manually-export-and-back-up-contacts-on-android/](https://www.howtogeek.com/359081/how-to-manually-export-and-back-up-contacts-on-android/)
 
-# How to export vcard (.vcf) on ios:
+## How to export vcard (.vcf) on ios:
 
 [https://trendblog.net/how-to-export-iphone-contacts-to-a-vcf-or-csv-file/](https://trendblog.net/how-to-export-iphone-contacts-to-a-vcf-or-csv-file/)
 
+---
 
+<center><strong>***DISCLAIMERS***
 
+<p></p>
+I can't distribute the leaked files for legal reasons. <p> You have to find them by your own means.</p>
+<p></p>
+***DISCLAIMERS*** </strong></center>
