@@ -14,8 +14,11 @@ ______                 _                    _        _                   _
 | |     / _ \ | '_ \ | __|/ _` | / __|| __|    | |    | '_ \  / _ \ / __|| |/ // _ \| '__|
 | \__/\| (_) || | | || |_| (_| || (__ | |_     | \__/\| | | ||  __/| (__ |   <|  __/| |   
  \____/ \___/ |_| |_| \__|\__,_| \___| \__|     \____/|_| |_| \___| \___||_|\_\\___||_|   
-```                                                                                                                                                 
----                                                                                                         
+```                                                                              
+
+*** ONLY WORKS FOR NORTH AMERICA PHONE NUMBERS AT THE MOMENT ***  
+*** If there is enough demand I will add other regions ***
+
 # Story
 
 After the leak of over 500 millions Facebook user data, I wanted to find out if any of my friends have been affected. Since I have a lot of contacts, I did not want to use a site like [haveibeenpwned](https://haveibeenpwned.com/) because I would have had to check each one individually. So to help me it so I wrote this program.
