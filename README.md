@@ -28,6 +28,9 @@ The goal of this program is to batch check if any of your contact have been affe
 
 To do the check we use a vcard file that all phone uses to store contacts then we check agains one file of the leak.
 
+# Caveat  
+This program only compares phone numbers from the leak with the one from your contact list. That means that there might be mistakes where the phone number was not in possession of the contact at the time that the data was scrapped from Facebook.
+
 ---
 
 # Usage
